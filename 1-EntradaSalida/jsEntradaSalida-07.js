@@ -5,7 +5,7 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	alert("ok");	
+	alert("acceder al item");	
 }
 
 function restar()
