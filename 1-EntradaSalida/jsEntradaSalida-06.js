@@ -4,6 +4,19 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	alert("no lo quiero mas");
+	
+    let numeroparciado1;
+	let numeroparciado2;
+
+    numeroparciado1 = parseInt(document.getElementById("txtIdNumeroUno").value); 
+	numeroparciado2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+
+    resultado = numeroparciado1 + numeroparciado2 ;
+
+	mensaje ="la suma da " + resultado; 
+
+	alert(mensaje);
+
+
 }
 

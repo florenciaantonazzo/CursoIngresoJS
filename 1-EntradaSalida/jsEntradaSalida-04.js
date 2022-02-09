@@ -5,12 +5,18 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 function mostrar()
 {
 	
+  //* reservo espacio en la memoria para guarsar el nombre del usuario
 
-let nombre ;
+     let nombre ;
 
-nombre = prompt ("ingrese su nombre");
+  // Guardo en la variable nombre el texto que introdujo el usuario en la ventana prompt
 
-document.getElementById("txtIdNombre").value = nombre ;
+     nombre = prompt ("ingrese su nombre");
+
+
+ //  Copio el nombre wue tengo guardado en la variable nombre (prompt) dentro de la caja de texto dentro de la ID html
+      
+     document.getElementById("txtIdNombre").value = nombre ;
 
 
 
